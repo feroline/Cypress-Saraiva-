@@ -38,7 +38,7 @@ ____
     }
     ```
 
-3. Add the following code in ```package.json```:
+3. Add the following code in ```package.json``` and run the command ```npm i```:
 
     ```json
         {
