@@ -1,0 +1,29 @@
+{
+  "name": "cypress-saraiva-",
+  "version": "1.0.0",
+  "description": "Implementation of the use of cypress with gherkin to automate tests in the Saraiva bookstore",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:open:chrome": "cypress run --browser chrome --no-exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feroline/Cypress-Saraiva-.git"
+  },
+  "keywords": [
+    "cypress",
+    "bdd",
+    "gherkin",
+    "js"
+  ],
+  "author": "Ana Carolina Rodrigues Rocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feroline/Cypress-Saraiva-/issues"
+  },
+  "homepage": "https://github.com/feroline/Cypress-Saraiva-#readme",
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  }
+}

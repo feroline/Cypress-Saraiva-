@@ -43,7 +43,7 @@ ____
     ```json
         {
             "scripts": {
-                "test:chrome": "cypress run --browser chrome --no-exit"
+                "cy:open:chrome": "cypress run --browser chrome --no-exit"
             },
             "cypress-cucumber-preprocessor": {
                 "step_definitions": "cypress/support/steps"
