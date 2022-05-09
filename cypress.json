@@ -1,3 +1,4 @@
 {
-    "baseUrl": "https://www.saraiva.com.br/"
+    "baseUrl": "https://www.saraiva.com.br/",
+    "chromeWebSecurity": false
 }

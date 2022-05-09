@@ -1,13 +1,18 @@
-import homePage from '../../integration/homePage/homePage.feature';
+import '../../integration/homePage/homePage.feature';
 
-Given('The user access {string} ##baseURL', (url) => {
+
+Given('The user access {string}', (url) => {
     cy.visit(url)
-    cy.url.should('be.contains', url);
+    cy.url().should('be.contains', 'saraiva');
 });
 
 Then('The user should see {string}', (text) => {
-    cy.wrap(cy.get('body')).should('be.contain.text', text);
+
+    let body = document.querySelector('body');
+    cy.wrap(body).should('contain.text', text);
+    
 });
+
 
 
 
